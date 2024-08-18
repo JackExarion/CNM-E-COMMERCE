@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://unpkg.com/open-props');
+@import url('https://unpkg.com/open-props/normalize.min.css');
 * {
     margin: 0;
     padding: 0;
@@ -204,15 +206,18 @@ body {
     background-color: #005d59;
 }
 
+
+
 #feature .fe-box {
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 250px;
     text-align: center;
-    padding: 25px 15px;
+    padding: 25px 15px 0 10px;
     box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.287);
     border: 1px solid #e3e6f3;
     border-radius: 4px;
     margin: 15px 15px;
+    margin-bottom: 10px;
     overflow: hidden;
     background-color: #cce7d0;
 }
@@ -228,12 +233,15 @@ body {
 }
 
 #feature .fe-box h6{
-    display: inline-block;
+    display:flex;
+    justify-content: center;
     padding: 3px 2px 3px 2px;
-    line-height: 1;
     border-radius: 5px;
     color: cyan;
     background-color: rgb(181, 7, 94);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 #feature .fe-box:nth-child(2) h6 {
@@ -259,6 +267,7 @@ body {
 #product1 {
     text-align: center;
     background-color: #005d59;
+    justify-content: center;
 }
 
 #product1 h2 {
@@ -268,17 +277,18 @@ body {
 
 #product1 p {
     color: #cce7d0;
+    padding-left: 160px;
+    margin-right: 15px;
 }
 
 #product1 .pro-container {
     display: flex;
-    justify-content: space-between;
     padding: 15px 20px;
-    flex-wrap: wrap;
 }
 
 #product1 .pro {
-    width: 23%;
+    width: 50%;
+    height: 370px;
     min-width: 250px;
     padding: 10px 15px;
     border: 5px solid #cce7d0;
@@ -289,6 +299,27 @@ body {
     transition: 0.2s ease;
     position: relative;
     background-color: #e3e6f3;
+    margin-right: 53px;
+    margin-left: 10px;
+}
+
+.pro-container {
+    --spacer: 2rem;
+    display: grid;
+    gap: var(--spacer);
+    padding: 0 var(--spacer) var(--spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 50%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.snaps-inline {
+    scroll-snap-type: mandatory inline;
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start;
 }
 
 #product1 .pro:hover {
@@ -298,6 +329,7 @@ body {
 #product1 .pro img {
     width: 100%;
     border-radius: 20px;
+    padding: 0 5px 0 0;
 }
 
 #product1 .pro .des {
@@ -465,11 +497,9 @@ body {
 
 #cnmletter {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     background-repeat: no-repeat;
-    background-position: 100% 100%;
     background-color: cyan;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.287);
 }
