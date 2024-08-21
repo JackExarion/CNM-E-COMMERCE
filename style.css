@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://unpkg.com/open-props');
 @import url('https://unpkg.com/open-props/normalize.min.css');
@@ -191,6 +192,11 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 20px;
+}
+
+#hero button:hover {
+    background: #088178;
+    border: 2px solid #fff;
 }
 
 #feature {
@@ -785,8 +791,29 @@ footer .copyriht {
         display: none;
     }
 
+    #hero {
+        background-image: url("pictures/1.jpg");
+        height: 120vh;
+        width: 100%;
+        background-size: cover;
+        background-position: top 90% right 80%;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.287);
+        z-index: 999;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
     #feature {
         justify-content: center;
+    }
+
+    #product1 p {
+        color: #cce7d0;
+        padding-left: 80px;
+        margin-right: 40px;
     }
 
     #sm-banner {
@@ -803,45 +830,143 @@ footer .copyriht {
     }
 }
 
+#page-header h2 {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: black;
+    text-shadow: 10px 10px 20px rgb(248, 245, 245);
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 80px 5px 0;
+}
+
+.small-img-group {
+    --spacer: 1rem;
+    display: grid;
+    gap: var(--spacer);
+    padding: 0 var(--spacer) var(--spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 47%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
 @media (max-width: 477px) {
     .section-p1 {
-        padding: 20px;
+        padding: 20px 30px;
     }
     #header {
         padding: 10px 30px;
     }
 
     #hero {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         padding: 0 20px;
-        height: 170vh;
+        height: 500px;
+        width: 100%;
     }
 
-    #feature .fe-box {
-        width: 155px;
-        margin: 10 15px 15px 0;
+    #hero h4 {
+        font-size: 15px;
     }
 
-    #feature .fe-box img {
-        width: 90px;
-        height:90px;
-        margin: 0 0 15px 0;
+    #hero h2 {
+        font-size: 40px;
+        font-weight: 500;
     }
 
-    #product1 p {
-        margin-right: 990px;
-        justify-items: center;
+    #hero p {
+        text-shadow: 10px 10px 20px#ffffff;
     }
 
-    .pro-container {
+    #hero button {
+        color: aqua;
+        border: 2px solid #005d59;
+        width: 120px;
+        height: 90px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    #hero button:hover {
+        background-color: #005d59;
+        color: #cce7d0;
+    }
+
+    #feature {
         --spacer: 2rem;
         display: grid;
         gap: var(--spacer);
-        padding: 0 var(--spacer) var(--spacer);
+        padding: 10px 40px;
         grid-auto-flow: column;
         grid-auto-columns: 50%;
         overflow-x: auto;
         overscroll-behavior-inline: contain;
-        margin-left: 40px;
+    }
+
+    #feature .fe-box {
+        width: 110px;
+        height: 170px;
+        margin-left: 300px;
+        margin-right: 150px;
+    }
+
+    #feature .fe-box h6 {
+        font-size: 10px;
+    }
+
+    #feature .fe-box img {
+        background-size: contain;
+        width: 90px;
+        height:80px;
+    }
+
+    #product1 p {
+        margin-right: 20px;
+        padding-left: 20px;
+    }
+
+    .pro-container {
+        --spacer: 10rem;
+        display: grid;
+        gap: var(--spacer);
+        padding: 0 var(--spacer) var(--spacer);
+        grid-auto-flow: column;
+        grid-auto-columns: 20%;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        margin-left: 20px;
+    }
+
+    #sm-banner .banner-box {
+        background-position: right 100;
+        background-size: cover;
+    }
+
+    #cnmletter input {
+        height: 50px;
+        width: 180px;
+    }
+
+    /* Single Product */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-images {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
     }
 }
 
