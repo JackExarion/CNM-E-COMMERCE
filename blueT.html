@@ -19,10 +19,10 @@
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
             </ul>
         </div>
@@ -32,62 +32,27 @@
         </div>
     </section>
 
-    <section id="page-header" class="contact-header">
-        <h2>#CART</h2>
-        <p>HAPPY SHOPPING!</p>
-    </section>
-
-    <section id="cart" class="section-p1">
-        <table width="100%">
-            <thead>
-                <tr>
-                    <td>Remove</td>
-                    <td>Image</td>
-                    <td>Product</td>
-                    <td>Price</td>
-                    <td>Quantity</td>
-                    <td>Subtotal</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
-                    <td><img src="pictures/Buy/B.png" alt=""></td>
-                    <td>Plain Black T-shirt</td>
-                    <td>PHP. 999.99</td>
-                    <td><input type="number" value="1"></td>
-                    <td>PHP. 999.99</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <section id="cart-add" class="section-p1">
-        <div id="coupon">
-            <h3>Apply coupon</h3>
-            <div>
-                <input type="text" placeholder="Enter Your Coupon">
-                <button class="normal">Apply</button>
+    <section id="blog">
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="pictures/Buy/BL.png" alt="">
             </div>
+            <div class="blog-details">
+                <h4>The Perfect Plain Blue T-Shirt: A Timeless Wardrobe Essential</h4>
+                <p><strong>In a world of fleeting trends, the plain blue T-shirt stands as a beacon of timeless style.</strong>It’s the unsung hero of every closet—versatile, effortlessly chic, and never out of fashion. Whether you’re dressing up for a night out or keeping it casual for a day of errands, the plain blue T-shirt is your go-to garment.</p>
+            </div>
+            <h1>#02</h1>
         </div>
+    </section>
 
-        <div id="subtotal">
-            <h3>Cart Totals</h3>
-            <table>
-                <tr>
-                    <td>Cart Subtotal</td>
-                    <td>PHP. 999.99</td>
-                </tr>
-                <tr>
-                    <td>Shipping</td>
-                    <td>Free</td>
-                </tr>
-                <tr>
-                    <td><strong>TOTAL</strong></td>
-                    <td><strong>PHP. 1000.00</strong></td>
-                </tr>
-            </table>
-            <button class="normal"><a href="checkout.html">Proceed to checkout</a></button>
+    <section id="cnmletter" class="section-p1 section-m1" >
+        <div class="cnmtext">
+            <h4>Sign Up For CNM</h4>
+            <p>Get E-mail updates about our latest shop and <span>AWESOME OFFERS!</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="You E-mail address">
+            <button class="normal">Sign Up</button>
         </div>
     </section>
 

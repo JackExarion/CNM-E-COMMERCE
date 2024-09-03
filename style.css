@@ -85,8 +85,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #e3e6f3;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.287);
+    background: #353435;
     z-index: 999;
     position: sticky;
     top: 0;
@@ -95,7 +94,7 @@ body {
 }
 
 #header .logo {
-    width: 100px;
+    width: 90px;
     height: 60px;
 }
 
@@ -115,7 +114,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #e1e1e1;
     transition: 0,3s ease;
 }
 
@@ -152,7 +151,7 @@ body {
     width: 100%;
     background-size: cover;
     background-position: top 90% right 50%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.287);
+    box-shadow: 0 5px 15px rgb(19, 181, 149);
     z-index: 999;
     padding: 0 80px;
     display: flex;
@@ -205,7 +204,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #005d59;
+    background-color: #353435;
 }
 
 
@@ -215,7 +214,7 @@ body {
     height: 250px;
     text-align: center;
     padding: 25px 15px 0 10px;
-    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.287);
+    box-shadow: 20px 20px 40px rgb(19, 181, 149);
     border: 1px solid #e3e6f3;
     border-radius: 4px;
     margin: 15px 15px;
@@ -231,7 +230,7 @@ body {
 }
 
 #feature .fe-box:hover{
-    box-shadow: 10px 10px 40px rgba(12, 11, 11, 0.412);
+    box-shadow: 20px 20px 40px rgb(19, 181, 149);
 }
 
 #feature .fe-box h6{
@@ -268,19 +267,21 @@ body {
 
 #product1 {
     text-align: center;
-    background-color: #005d59;
+    background-color: #353435;
     justify-content: center;
 }
 
 #product1 h2 {
     color: #cce7d0;
     font-weight: 500;
+    text-shadow: rgb(19, 181, 149);
 }
 
 #product1 p {
     color: #cce7d0;
     padding-left: 160px;
     margin-right: 15px;
+    text-shadow: rgb(19, 181, 149);
 }
 
 #product1 .pro-container {
@@ -296,7 +297,7 @@ body {
     border: 5px solid #cce7d0;
     border-radius: 25px;
     cursor: pointer;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.287);
+    box-shadow: 20px 20px 40px rgb(19, 181, 149);
     margin: 10px 0;
     transition: 0.2s ease;
     position: relative;
@@ -325,7 +326,7 @@ body {
 }
 
 #product1 .pro:hover {
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.45);
+    box-shadow: 20px 20px 30px rgb(19, 181, 149);
 }
 
 #product1 .pro img {
@@ -387,7 +388,7 @@ body {
     height: 80vh;
     background-size: cover;
     background-position: center;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.287);
+    box-shadow: 20px 20px 30px rgb(19, 181, 149);
 }
 
 #banner h4 {
@@ -413,7 +414,7 @@ body {
     justify-content: space-between;
     padding: 15px 20px;
     flex-wrap:wrap;
-    background-color: #005d59;
+    background-color: #353435;
 }
 
 #sm-banner .banner-box {
@@ -429,7 +430,7 @@ body {
     margin: 20px 0;
     background-size: cover;
     background-position: center;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.287);
+    box-shadow: 20px 20px 30px rgb(19, 181, 149);
 }
 
 #sm-banner .banner-box2 {
@@ -445,7 +446,7 @@ body {
     margin: 20px 0;
     background-size: cover;
     background-position: center;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.287);
+    box-shadow: 20px 20px 30px rgb(19, 181, 149);
 }
 
 #sm-banner h4 {
@@ -556,7 +557,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #005d59;
+    background-color: #353435;
 }
 
 footer .col {
@@ -664,8 +665,7 @@ footer .copyriht {
 
 #prodetails {
     display: flex;
-    margin-top: 20px;
-    background-color: #005d59;
+    background-color: #353435;
 }
 
 #prodetails span {
@@ -681,7 +681,7 @@ footer .copyriht {
 #MainImg {
     border: 2px solid #01fbeb;
     border-radius: 5px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.287);
+    box-shadow: 5px 5px 10px rgba(19, 181, 149, 0.5);
 }
 .small-img-group {
     display: flex;
@@ -694,7 +694,7 @@ footer .copyriht {
     cursor: pointer;
     border: 2px solid #01fbeb;
     border-radius: 4px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.287);
+    box-shadow: 5px 5px 10px rgb(19, 181, 149);
 }
 
 #prodetails .single-pro-details {
@@ -702,14 +702,19 @@ footer .copyriht {
     padding-top: 30px;
 }
 
+#prodetails .single-pro-details h6 {
+    color: #03b5a9;
+}
+
 #prodetails .single-pro-details h4 {
     padding: 40px 0 20px 0;
     font-weight: 1050;
-    color: #000;
+    color: #03b5a9;
 }
 
 #prodetails .single-pro-details h2 {
     font-size: 20px;
+    color: #03b5a9;
 }
 
 #prodetails .single-pro-details select {
@@ -717,7 +722,7 @@ footer .copyriht {
     padding: 5px 10px;
     margin-bottom: 10px;
     border: 5px solid #04c8bb;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.657);
+    box-shadow: 5px 5px 10px rgb(19, 181, 149);
 }
 
 #prodetails .single-pro-details input {
@@ -726,13 +731,13 @@ footer .copyriht {
     padding-left: 10px;
     font-size: 15px;
     margin-right: 10px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.657);
+    box-shadow: 5px 5px 10px rgb(19, 181, 149);
 }
 
 #prodetails .single-pro-details button {
     background-color: #04968f;
     color: #fff;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.657);
+    box-shadow: 5px 5px 10px rgb(19, 181, 149);
     border: 2px solid #04c8bb;
 }
 
@@ -753,7 +758,7 @@ footer .copyriht {
 
 #pagination a{
     text-decoration: none;
-    background-color: #088178;
+    background-color: #353435;
     padding: 15px 20px;
     color: #e3e6f3;
     font-weight: 600;
@@ -772,7 +777,7 @@ footer .copyriht {
 
 #blog {
     padding: 150px 150px 150px 150px;
-    background-color: #005d59;
+    background-color: #353435;
 }
 
 #blog .blog-img {
@@ -784,7 +789,7 @@ footer .copyriht {
 #blog img {
     border: 5px solid #01fbeb;
     border-radius: 5px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.488);
+    box-shadow: 10px 10px 30px rgba(25, 175, 143, 0.488);
 }
 
 #blog .blog-box {
@@ -826,6 +831,10 @@ footer .copyriht {
     background-color: #cce7d0;
 }
 
+#blog .blog-details h4 {
+    color: #03b5a9;
+}
+
 #blog .blog-details p {
     color: #e7efe8;
 }
@@ -838,6 +847,16 @@ footer .copyriht {
     font-weight: 700;
     color: #cce7d0;
 }
+
+#cs {
+    align-items: center;
+    position: fixed;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 150px;
+}
 /* About Page */
 #page-header .about-header p {
     padding-left: 100px;
@@ -847,6 +866,19 @@ footer .copyriht {
 #about-head {
     display: flex;
     align-items: center;
+    background-color: #353435;
+}
+
+#about-head h2 {
+    color: #03b5a9;
+}
+
+#about-head p {
+    color: #eee;
+}
+
+#about-head abbr {
+    color: #eee;
 }
 
 #about-head img {
@@ -854,7 +886,7 @@ footer .copyriht {
     border:2px solid #04968f;
     border-radius: 4px;
     padding: 3px 3px 3px 3px;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.657);
+    box-shadow: 20px 20px 30px rgba(27, 160, 165, 0.657);
 }
 
 #about-head div {
@@ -868,6 +900,7 @@ footer .copyriht {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #353435;
 }
 
 #contact-details .details {
@@ -877,6 +910,7 @@ footer .copyriht {
 #contact-details .details span,
 #form-details form span {
     font-size: 12px;
+    color: #eee;
 }
 
 #contact-details .details h2,
@@ -884,11 +918,13 @@ footer .copyriht {
     font-size: 25px;
     line-height: 35px;
     padding: 20px 0;
+    color: #03b5a9;
 }
 
 #contact-details .details h3 {
     font-size: 15px;
     padding-bottom: 15px;
+    color: #eee;
 }
 
 #contact-details .details li {
@@ -900,18 +936,20 @@ footer .copyriht {
 #contact-details .details li i {
     font-size: 15px;
     padding-right: 20px;
+    color: #03b5a9;
 }
 
 #contact-details .details li p {
     margin: 0;
     font-size: 15px;
+    color: #eee;
 }
 
 #contact-details .map {
     border: 5px solid #005d59;
     border-radius: 4px;
     padding: 3px 3px 3px 3px;
-    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.657);
+    box-shadow: 20px 20px 40px #005d59;
 }
 
 #page-header.contact-header {
@@ -932,9 +970,8 @@ footer .copyriht {
 #form-details {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
     padding: 80px;
-    border: 1px solid #e1e1e1;
+    background-color: #353435;
 }
 
 #form-details form {
@@ -946,7 +983,7 @@ footer .copyriht {
 }
 
 #form-details button {
-    background-color: transparent;
+    background-color: #eee;
     border: 1px solid #222;
     color: #222;
     transition: 0.3s;
@@ -966,26 +1003,31 @@ footer .copyriht {
     border: 1px solid #e1e1e1;
 }
 
-#form-details.people div {
+#form-details .people div {
     padding-bottom: 25px;
     display: flex;
     align-items: flex-start;
 }
 
-#form-details.people div p {
+#form-details .people p {
     margin: 0;
     font-size: 15px;
     line-height: 25px;
+    color: #eee;
 }
 
-#form-details.people div p span {
+#form-details .people p span {
     display: block;
     font-size: 15px;
     font-weight: 600;
-    color:#000;
+    color: #03b5a9;
 }
 
 /* cart page */
+
+#cart {
+    background-color: #353435;
+}
 
 #cart table {
     width: 100%;
@@ -1047,6 +1089,7 @@ footer .copyriht {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #353435;
 }
 
 #coupon {
@@ -1064,7 +1107,7 @@ footer .copyriht {
     width: 60%;
     margin-right: 10px;
     border: 2px solid #005d59;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.654);
+    box-shadow: 10px 10px 30px rgba(26, 149, 145, 0.654);
 }
 
 #coupon button {
@@ -1077,7 +1120,8 @@ footer .copyriht {
     margin-bottom: 30px;
     border: 2px solid #005d59;
     padding: 30px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.654);
+    background-color: #e1e1e1;
+    box-shadow: 10px 10px 30px rgba(26, 149, 145, 0.654);
 }
 
 #subtotal table {
@@ -1097,6 +1141,14 @@ footer .copyriht {
     background-color: #005d59;
     color:#cce7d0;
 }
+#subtotal button a {
+    color: #eee;
+    text-decoration: none;
+}
+
+
+
+
 
 
 
