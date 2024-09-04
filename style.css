@@ -192,11 +192,14 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 20px;
+    text-decoration: none;
+    color: #088178;
 }
 
 #hero button:hover {
     background: #088178;
     border: 2px solid #fff;
+    color: white;
 }
 
 #feature {
@@ -700,6 +703,11 @@ footer .copyriht {
 #prodetails .single-pro-details {
     width: 50%;
     padding-top: 30px;
+}
+
+#prodetails .single-pro-details a {
+    text-decoration: none;
+    color: white;
 }
 
 #prodetails .single-pro-details h6 {
