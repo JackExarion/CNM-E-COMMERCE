@@ -902,6 +902,26 @@ footer .copyriht {
     padding-top: 50px;
 }
 
+#privacy-policy,
+#terms-conditions {
+    background-color: #353435;
+}
+
+#privacy-policy h3,
+#terms-conditions h3 {
+    color: #03b5a9;
+}
+
+#privacy-policy strong ,
+#terms-conditions strong  {
+    color: #01fbeb;
+}
+
+#privacy-policy p,
+#terms-conditions p  {
+    color: #e1e1e1;
+}
+
 /* Contact Us */
 
 #contact-details {
